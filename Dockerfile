@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 # Set version and github repo which you want to build from
 ENV GITHUB_OWNER druid-io
-ENV DRUID_VERSION 0.12.0
+ENV DRUID_VERSION 0.13.0-incubating
 ENV ZOOKEEPER_VERSION 3.4.12
 
 # Java 8
@@ -107,7 +107,7 @@ EXPOSE 8081
 EXPOSE 8082
 EXPOSE 8083
 EXPOSE 8090
-EXPOSE 3306
+EXPOSE 5432
 EXPOSE 2181 2888 3888
 
 # Mount the data inside of the container
