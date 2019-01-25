@@ -2,8 +2,8 @@ FROM ubuntu:16.04
 
 # Set version and github repo which you want to build from
 ENV GITHUB_OWNER apache
-ENV DRUID_VERSION 0.12.3
-ENV ZOOKEEPER_VERSION 3.4.12
+ENV DRUID_VERSION 0.13.0-incubating
+ENV ZOOKEEPER_VERSION 3.4.13
 
 # Java 8
 RUN apt-get update \
